@@ -11,6 +11,9 @@
 		2DFF280026D97358007E0372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF27FF26D97358007E0372 /* ContentView.swift */; };
 		2DFF280226D9735B007E0372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF280126D9735B007E0372 /* Assets.xcassets */; };
 		2DFF280526D9735B007E0372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF280426D9735B007E0372 /* Preview Assets.xcassets */; };
+		2DFF280E26D9737E007E0372 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF280D26D9737E007E0372 /* MovieStore.swift */; };
+		2DFF281126D97526007E0372 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF281026D97526007E0372 /* ImageLoader.swift */; };
+		2DFF281426D975F5007E0372 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF281326D975F5007E0372 /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		2DFF280126D9735B007E0372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFF280426D9735B007E0372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DFF280626D9735B007E0372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFF280D26D9737E007E0372 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		2DFF281026D97526007E0372 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		2DFF281326D975F5007E0372 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				2DFF280126D9735B007E0372 /* Assets.xcassets */,
 				2DFF280626D9735B007E0372 /* Info.plist */,
 				2DFF280326D9735B007E0372 /* Preview Content */,
+				2DFF280D26D9737E007E0372 /* MovieStore.swift */,
+				2DFF281026D97526007E0372 /* ImageLoader.swift */,
+				2DFF281326D975F5007E0372 /* URLImage.swift */,
 			);
 			path = "SwiftUI-MovieApp";
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFF280026D97358007E0372 /* ContentView.swift in Sources */,
+				2DFF280E26D9737E007E0372 /* MovieStore.swift in Sources */,
+				2DFF281126D97526007E0372 /* ImageLoader.swift in Sources */,
+				2DFF281426D975F5007E0372 /* URLImage.swift in Sources */,
 				2DFF27FE26D97358007E0372 /* SwiftUI_MovieAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
